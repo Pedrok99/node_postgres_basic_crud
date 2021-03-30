@@ -1,17 +1,15 @@
-# node_postgres_basic_crud
+# CRUD simples usando node e postgresql
 
-Esse projeto é um CRUD feito para aperfeiçoar os conhecimentos em NodeJS e Postesql
+Esse projeto é um CRUD feito para obter alguns conhecimentos em NodeJS e Postgresql
 
 ## Funcionalidades
 
-Nesse Crud Basico você será capaz de adicionar e remover Usuários de um banco de dados do
-tipo postgresql, para fazer a ligação entre o banco de dados e a aplicação em NodeJS foi
-usado a lib Knext e express.
+Nesse Crud Basico você será capaz de adicionar e remover Usuários de um banco de dados (postgresql). Para fazer a integração entre o banco de dados e a aplicação foi
+utilizado a biblioteca Knex. Já as rotas foram feitas utilizando o express.
 
 ## Requisitos:
     * postgresql
     * knex
-    * np
     * express
 
 ## Como rodar:
@@ -20,9 +18,4 @@ usado a lib Knext e express.
       npm install
 
    * Rodar Projeto
-      npm star
- 
-
-## Contato
-
-[Ceilandia](https://github.com/Pedrok99)
+      npm start
